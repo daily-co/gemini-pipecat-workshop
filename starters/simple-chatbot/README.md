@@ -11,7 +11,7 @@ A Gemini bot to power your voice AI client:
 - Uses Google's Gemini Multimodal Live model
 - Requires Gemini API key
 
-## Five Client Options
+## Six Client Options
 
 1. **Daily Prebuilt** (Simplest)
 
@@ -35,8 +35,14 @@ A Gemini bot to power your voice AI client:
    - Demonstrates the basic client principles with Pipecat Android
 
 5. **iOS**
+
    - Basic implementation using [Pipecat iOS SDK](https://docs.pipecat.ai/client/ios/introduction)
    - Demonstrates the basic client principles with Pipecat iOS
+
+6. **React Native**
+
+   - Basic implementation using [Pipecat React Native SDK](https://docs.pipecat.ai/client/react-native/introduction)
+   - Demonstrates the basic client principles with Pipecat React Native
 
 ## Quick Start
 

@@ -9,7 +9,7 @@ Welcome to the Pipecat + Gemini workshop! This repo will help you get set up to 
 
 ## Quickstart
 
-1. Download the repo to get started:
+1. Download this repo to get started:
 
 ```bash
 git clone git@github.com:daily-co/gemini-pipecat-workshop.git
@@ -42,6 +42,9 @@ cp env.example .env
 ```
 
 You can obtain a Google Gemini API key: https://aistudio.google.com/app/apikey.
+
+> A free Daily API key is provided for you for the duration of this workshop.
+> Sign up for your own Daily API key at: https://dashboard.daily.co.
 
 6. Run the example:
 
