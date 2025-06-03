@@ -13,7 +13,6 @@ This project is a FastAPI-based chatbot that integrates with Twilio to handle We
 ## Requirements
 
 - Python 3.10
-- Docker (for containerized deployment)
 - ngrok (for tunneling)
 - Twilio Account
 

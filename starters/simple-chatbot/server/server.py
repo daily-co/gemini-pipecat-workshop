@@ -169,9 +169,8 @@ async def rtvi_connect(request: Request) -> Dict[Any, Any]:
 
     # Start the bot process
     try:
-        bot_file = get_bot_file()
         proc = subprocess.Popen(
-            [f"python3 -m {bot_file} -u {room_url} -t {token}"],
+            [f"python3 -m bot -u {room_url} -t {token}"],
             shell=True,
             bufsize=1,
             cwd=os.path.dirname(os.path.abspath(__file__)),
