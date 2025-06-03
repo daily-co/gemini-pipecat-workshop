@@ -52,7 +52,7 @@ You can obtain a Google Gemini API key: https://aistudio.google.com/app/apikey.
 python gemini-bot.py
 ```
 
-You'll see a URL (http://localhost:7860) in the console output. Open this URL in your browser to join the session.
+You'll see a URL (https://dailymark.daily.co/...) in the console output. Open this URL in your browser to join the session.
 
 ## Starters
 
