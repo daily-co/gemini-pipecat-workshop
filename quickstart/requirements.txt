@@ -1,5 +1,2 @@
-fastapi
-uvicorn
 python-dotenv
-pipecat-ai[webrtc,gemini]
-pipecat-ai-small-webrtc-prebuilt
+pipecat-ai[daily,google,silero]
