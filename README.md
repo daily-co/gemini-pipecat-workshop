@@ -2,36 +2,48 @@
 
 Welcome to the Pipecat + Gemini workshop! This repo will help you get set up to start building with Pipecat and Gemini. First up, let's get your dev environment configured and run a quickstart project.
 
+## Prerequisites
+
+- Python 3.10+
+- Linux, MacOS, or Windows Subsystem for Linux (WSL)
+
 ## Quickstart
 
-1. Set up a virtual environment:
+1. Download the repo to get started:
+
+```bash
+git clone git@github.com:daily-co/gemini-pipecat-workshop.git
+cd gemini-pipecat-workshop
+```
+
+2. Set up a virtual environment:
 
 ```bash
 python3 -m venv env
 source env/bin/activate
 ```
 
-2. Navigate to the quickstart directory:
+3. Navigate to the quickstart directory:
 
 ```bash
 cd quickstart
 ```
 
-3. Install dependencies:
+4. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Create a `.env` file with your Google API key:
+5. Create a `.env` file with your Google API key:
 
 ```bash
 cp env.example .env
 ```
 
-You can obtain a Google Gemini API key TKTKTK
+You can obtain a Google Gemini API key: https://aistudio.google.com/app/apikey.
 
-5. Run the example:
+6. Run the example:
 
 ```bash
 python gemini-bot.py
@@ -65,7 +77,7 @@ Refer to the [twilio-chatbot README](/starters/twilio-chatbot/README.md) for mor
 ## Docs
 
 - [Pipecat docs](https://docs.pipecat.ai): Contains guides, server docs, and client docs for the client SDKs
-- [Gemini docs](TKTKTK)
+- [Gemini docs](https://ai.google.dev/gemini-api/docs/live)
 
 ## Other Gemini projects for reference:
 
